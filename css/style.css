@@ -411,7 +411,7 @@ html {
 
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
     }
     .header {
         width: 100%;
@@ -419,7 +419,7 @@ html {
         background-color: var(--footer-text-color);
         display: grid;
         grid-template-columns: 30px 1fr 1fr 100px;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
 
     .menu {
